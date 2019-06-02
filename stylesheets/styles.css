@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	line-height: 2em;
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+h2, h3, h4, h5, h6{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* Navigation */
+header {
+	background-color: #659DBD;
+	text-align: center;
+	border-bottom: 3px solid #DAAD86;
+	font-family: 'Ubuntu', sans-serif;
+}
+.nav-link {
+	text-decoration: none;
+	color: white;
+}
+.nav-link:hover {
+	color: white;
+}
+.dropbtn {
+	background-color: #659DBD;
+  	color: white;
+  	padding: 16px;
+  	font-size: 1.3em;
+  	border: none;
+}
+
+.dropdown {
+ 	position: relative;
+ 	display: inline-block;
+}
+
+.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #f1f1f1;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+}
+
+.dropdown-content a {
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+}
+.topnav {
+	display: none;
+}
+
+@media only screen and (max-width: 800px) {
+	.desktop {
+		display: none;
+	}
+	.topnav {
+		display: block;
+		overflow: hidden;
+		background-color: #659DBD;
+		position: relative;
+		font-family: 'Ubuntu', sans-serif;
+	}
+	.topnav #myLinks {
+		display: none;
+	}
+
+	.topnav a {
+		color: white;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 1.2em;
+		display: block;
+	}
+
+	.topnav a.icon {
+		background: #659DBD;
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+		color: white;
+	}
+	.active {
+		background-color: #659DBD;
+		color: white;
+	}
+}
+
+/* Content */
+h2 {
+	text-align: center;
+}
+#home-heading {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 2%;
+}
+#front-page-text  {
+	font-family: 'Roboto', sans-serif;
+	
+}
+.logofront {
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 3%;
+}
+.logofront img {
+	width: 15%;
+	height: auto;
+	display: inline-block;
+}
+
+/* Hunderacer style */
+.infographics  {
+	margin-bottom: 4%;
+}
+
+/* Inden hvalpen style */ 
+/* To do list style*/ 
+.ikoner {
+	width: 12%;
+	height: auto;
+	margin-top: 4%;
+}
+
+/* Godt at vide style */
+.vigtigt {
+	margin-left: 2%;
+}
+.list-vigtigt {
+	padding-top: 3%;
+	font-size: 1.2em;
+}
+.tips {
+	text-align: left;
+	margin-top: 2%;
+}
+.bagben {
+	text-align: right;
+}
+.bagben img {
+	width: 80%;
+	height: auto;
+	margin-bottom: 3%;
+}
+.spacing-list {
+	margin-bottom: 2%;
+}
+
+/* Giftigt for hunde styling */
+.table {
+	margin-bottom: 4%;
+}
+
+/* Training - kontakt */ 
+.overskrift {
+	text-align: center;
+	margin-top: 3%;
+}
+.tutorial-overskrift {
+	text-align: left;
+	margin-top: 5%;
+}
+.subject-change {
+	border-top: 3px solid #DAAD86;
+}
+
+.footer-afstand {
+	margin-bottom: 4%;
+}
+
+/* Footer style */
+footer {
+	background-color: #659DBD;
+	color: white;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	padding-top: 1%;
+	border-top: 3px solid #DAAD86;
+}
+.footer-head {
+	font-size: 0.9em;
+}
+.footer-text {
+	font-size: 0.8em;
+}
+.portfolio-link {
+	color: white;
+}
+.portfolio-link:hover {
+	color: #DAAD86;
+}
